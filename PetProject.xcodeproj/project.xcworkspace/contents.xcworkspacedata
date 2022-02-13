@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/aleksandrveselov/Desktop/Swift/PetProgect/PetProject.xcodeproj">
    </FileRef>
 </Workspace>

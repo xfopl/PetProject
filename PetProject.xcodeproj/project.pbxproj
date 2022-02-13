@@ -13,10 +13,11 @@
 		D94EE2DE27A2EE1900DE420D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D94EE2DC27A2EE1900DE420D /* Main.storyboard */; };
 		D94EE2E027A2EE1C00DE420D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94EE2DF27A2EE1C00DE420D /* Assets.xcassets */; };
 		D94EE2E327A2EE1C00DE420D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D94EE2E127A2EE1C00DE420D /* LaunchScreen.storyboard */; };
+		D98B878927A5514800A5F53D /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B878827A5514800A5F53D /* CalculatorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D94EE2D327A2EE1900DE420D /* PetProgect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetProgect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D94EE2D327A2EE1900DE420D /* PetProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D94EE2D627A2EE1900DE420D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D94EE2D827A2EE1900DE420D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D94EE2DA27A2EE1900DE420D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,8 @@
 		D94EE2DF27A2EE1C00DE420D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D94EE2E227A2EE1C00DE420D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D94EE2E427A2EE1C00DE420D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D98B878827A5514800A5F53D /* CalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
+		D9A906DA27B9797B002E5C28 /* CreateButton.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CreateButton.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +43,7 @@
 		D94EE2CA27A2EE1900DE420D = {
 			isa = PBXGroup;
 			children = (
-				D94EE2D527A2EE1900DE420D /* PetProgect */,
+				D94EE2D527A2EE1900DE420D /* PetProject */,
 				D94EE2D427A2EE1900DE420D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +51,33 @@
 		D94EE2D427A2EE1900DE420D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D94EE2D327A2EE1900DE420D /* PetProgect.app */,
+				D94EE2D327A2EE1900DE420D /* PetProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D94EE2D527A2EE1900DE420D /* PetProgect */ = {
+		D94EE2D527A2EE1900DE420D /* PetProject */ = {
 			isa = PBXGroup;
 			children = (
 				D94EE2D627A2EE1900DE420D /* AppDelegate.swift */,
 				D94EE2D827A2EE1900DE420D /* SceneDelegate.swift */,
 				D94EE2DA27A2EE1900DE420D /* ViewController.swift */,
+				D98B878827A5514800A5F53D /* CalculatorButton.swift */,
 				D94EE2DC27A2EE1900DE420D /* Main.storyboard */,
+				D9A906DA27B9797B002E5C28 /* CreateButton.playground */,
 				D94EE2DF27A2EE1C00DE420D /* Assets.xcassets */,
 				D94EE2E127A2EE1C00DE420D /* LaunchScreen.storyboard */,
 				D94EE2E427A2EE1C00DE420D /* Info.plist */,
 			);
-			path = PetProgect;
+			path = PetProject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D94EE2D227A2EE1900DE420D /* PetProgect */ = {
+		D94EE2D227A2EE1900DE420D /* PetProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D94EE2E727A2EE1C00DE420D /* Build configuration list for PBXNativeTarget "PetProgect" */;
+			buildConfigurationList = D94EE2E727A2EE1C00DE420D /* Build configuration list for PBXNativeTarget "PetProject" */;
 			buildPhases = (
 				D94EE2CF27A2EE1900DE420D /* Sources */,
 				D94EE2D027A2EE1900DE420D /* Frameworks */,
@@ -82,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = PetProgect;
+			name = PetProject;
 			productName = PetProgect;
-			productReference = D94EE2D327A2EE1900DE420D /* PetProgect.app */;
+			productReference = D94EE2D327A2EE1900DE420D /* PetProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D94EE2CE27A2EE1900DE420D /* Build configuration list for PBXProject "PetProgect" */;
+			buildConfigurationList = D94EE2CE27A2EE1900DE420D /* Build configuration list for PBXProject "PetProject" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D94EE2D227A2EE1900DE420D /* PetProgect */,
+				D94EE2D227A2EE1900DE420D /* PetProject */,
 			);
 		};
 /* End PBXProject section */
@@ -141,6 +146,7 @@
 				D94EE2DB27A2EE1900DE420D /* ViewController.swift in Sources */,
 				D94EE2D727A2EE1900DE420D /* AppDelegate.swift in Sources */,
 				D94EE2D927A2EE1900DE420D /* SceneDelegate.swift in Sources */,
+				D98B878927A5514800A5F53D /* CalculatorButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +297,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 72T476X5VQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PetProgect/Info.plist;
+				INFOPLIST_FILE = PetProject/info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +325,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 72T476X5VQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PetProgect/Info.plist;
+				INFOPLIST_FILE = PetProject/info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -341,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D94EE2CE27A2EE1900DE420D /* Build configuration list for PBXProject "PetProgect" */ = {
+		D94EE2CE27A2EE1900DE420D /* Build configuration list for PBXProject "PetProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D94EE2E527A2EE1C00DE420D /* Debug */,
@@ -350,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D94EE2E727A2EE1C00DE420D /* Build configuration list for PBXNativeTarget "PetProgect" */ = {
+		D94EE2E727A2EE1C00DE420D /* Build configuration list for PBXNativeTarget "PetProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D94EE2E827A2EE1C00DE420D /* Debug */,
